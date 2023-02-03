@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  min-width: 360px;
+}
+
+.border {
+  border: 1px solid rgb(0, 234, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.ads-list {
+  width: 100%;
+  padding: 10px;
+  background-color: #98bffa;
+}
+
+.ads-list .ads-card {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #cffaff;
+  margin: 10px 0;
+}
+
+.ads-list .ads-card .ads-title {
+  width: 100%;
+  text-align: center;
+  background-color: #2905df;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(193, 193, 193);
+}
+
+.ads-list .ads-image img
+ {
+  width: 100%;
+}
+
+.ads-list .ads-buttons {
+  width: 100%;
+}
+
+.ads-details-button {
+  display: flex;
+}
+
+.ads-list .ads-buttons button {
+  width: 45%;
+  margin: 5px 5px 15px 5px;
+  padding: 10px;
+  font-weight: bold ;
+  border-radius: 5px;
+  background-color: #2905df;
+  color: white;
+}
+
+.ads-list .ads-buttons .ads-details-link {
+  width: 45%;
+  margin: 5px 5px 15px 5px;
+  padding: 10px;
+  font-weight: bold ;
+  border-radius: 5px;
+  background-color: #2905df;
+  color: white;
+  text-align: center;
+}
+
+.space_location {
+  width: 98%;
+  height: 200px;
+  background-color: gray;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+}
+
+
+.bxslider {
+  width: 100%;
+  max-width: 480px;
+  max-height: 40px;
+  /* height: 382px; */
+  /* height: 80%; */
+}
+
+/* Slider */
+.bxslider img {
+  display: block;
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover; /* or object-fit: contain; */
+} 
+  
+.bx-caption {
+  padding: 20px 5px 30px 20px;
+}
+
+.bx-caption .title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.bx-caption .nc_subtitle {
+  font-size: 1em;
+  color: rgb(0, 255, 0);
+}
+
+/* Tipos de serviços */
+.service-classes {
+  width: 100%;
+  padding: 50px;
+  margin: 20px auto 20px auto;
+  border: 1px solid rgb(0, 25, 250);
+  border-radius: 5px;
+}
+
+.service-classes .service-classes-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.service-classes .highlights {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+
+
+.page-title  {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  color: #34d0ec;
+}
+
+.espo-form {
+  width: 98%;
+  margin: 0 2% 0 2%;
+  padding: 5px;
+  max-width: 600px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.espo-form .field {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.espo-form .field-label {
+  width: 100%;
+  padding: 5px 5px 0 5px;
+}
+
+.espo-form .field-data {
+  width: 100%;
+  padding: 0 5px 5px 5px;
+}
+
+.espo-form .field-data input {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.espo-form .field-data textarea {
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #8da0f3;
+  color: rgb(2, 22, 238);
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.catch-location {
+  padding: 10px;
+  background-color: #fab498;
+  border-radius: 5px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.catch-location:hover {
+  background-color: #2905df;
+  color: white;
+}
+
+
+/* smartphones */
+/* @media screen and (min-width: 480px) {
+  .logo {
+    width: 200px;
+    background: url(../images/logo.png) center center/200px no-repeat;
+    
+    }
+} */
+
+
+/* tablets */
+/* @media (min-width: 481px) and (max-width: 768px) { */
+@media (min-width: 481px) {
+  .bxslider {
+    width: 60%;
+    max-width: 768px;
+    min-width: 481px;
+  }
+
+  .service-classes {
+    width: 30%;
+    max-width: 768px;
+    min-width: 481px;
+  }
+}
