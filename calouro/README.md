@@ -1,7 +1,5 @@
-# ESPO - Empresa Santarena de Publicidade em Outdoor
+# Calouro Noticias
 
-In this project is shown development process of a outdoor advertising business
-
-Here, we presentate a website construction to publish about advertising spaces and can book and manage that.
+The project is about a news blog focused on technology and innovation at federal universities in Brazil
 
 [teste](dvp.md)
